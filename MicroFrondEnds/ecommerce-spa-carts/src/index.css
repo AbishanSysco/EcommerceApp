@@ -1,0 +1,19 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.custom-select {
+    color: #4a5568; /* text-gray-700 equivalent */
+    padding: 0.5rem; /* Add padding to match your design */
+  }
+
+
+  @layer utilities {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
